@@ -7,6 +7,8 @@ The first analysis for optimizing neural network is shown [here](https://github.
 ). Keeping the search space and coding methodology same, the tuning of neural networks using genetic algorithm has been parallelized using Mpi4py. For that two models are considered: 
 * multiple deme course grained genetic algorithm model
 * hybrid multiple deme course grained genetic algorithm (multiple deme model built on top of multiple demem model) - Island model
+
+
 Thanks to the research paper [here](https://www.researchgate.net/publication/2362670_A_Survey_of_Parallel_Genetic_Algorithms)
 
 The same is run using 7 processors
