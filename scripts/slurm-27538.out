@@ -1,0 +1,213 @@
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+    import network
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+Traceback (most recent call last):
+  File "dnnt.py", line 15, in <module>
+    import network
+  File "/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/network.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from keras.datasets import cifar10, cifar100
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/__init__.py", line 3, in <module>
+    from . import utils
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/__init__.py", line 6, in <module>
+    from . import conv_utils
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from . import conv_utils
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/utils/conv_utils.py", line 9, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .. import backend as K
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/__init__.py", line 89, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    from .tensorflow_backend import *
+  File "/home/users/mschpc/2017/bhatnags/.local/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py", line 5, in <module>
+    import tensorflow as tf
+    import tensorflow as tf
+    import tensorflow as tf
+ImportError: No module named tensorflow
+ImportError: No module named tensorflow
+ImportError: No module named tensorflow
+    import tensorflow as tf
+    import tensorflow as tf
+ImportError    import tensorflow as tf
+ImportError: No module named tensorflow
+    import tensorflow as tf
+ImportError: No module named tensorflow
+ImportError: No module named tensorflow
+: No module named tensorflow
+    import tensorflow as tf
+ImportError: No module named tensorflow
+    import tensorflow as tf
+ImportError: No module named tensorflow
+
+
+###############################################################################
+TCHPC Cluster: boyle
+Job 27538 (dnnt09) for User 'bhatnags' in Account '(null)'
+Finished at: Wed Aug 29 06:39:53 IST 2018
+
+Job completion status:
+======================
+
+       JobID    JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+27538            dnnt09        28             1                                                      00:00:05    RUNNING      0:0 
+27538.batch       batch        28      1      1          0    boyle-n019            0            0   00:00:05  COMPLETED      0:0 
+27538.0      hydra_pmi+         1      1      1          0    boyle-n019            0            0   00:00:05  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=27538 JobName=dnnt09
+   UserId=bhatnags(1460) GroupId=bhatnags(1106) MCS_label=N/A
+   Priority=101189 Nice=0 Account=(null) QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:00:05 TimeLimit=1-09:00:00 TimeMin=N/A
+   SubmitTime=2018-08-29T06:05:50 EligibleTime=2018-08-29T06:05:50
+   StartTime=2018-08-29T06:39:48 EndTime=2018-08-29T06:39:53 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=compute AllocNode:Sid=boyle01:34008
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   BatchHost=boyle-n019
+   NumNodes=1 NumCPUs=28 NumTasks=9 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=28,mem=125G,node=1
+   Socks/Node=* NtasksPerN:B:S:C=9:0:*:* CoreSpec=*
+     Nodes=boyle-n019 CPU_IDs=0-27 Mem=128000 GRES_IDX=
+   MinCPUsNode=9 MinMemoryNode=125G MinTmpDiskNode=0
+   Features=LargeMem DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/bashscript.sh
+   WorkDir=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09
+   StdErr=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/slurm-27538.out
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt09/slurm-27538.out
+   Power=
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

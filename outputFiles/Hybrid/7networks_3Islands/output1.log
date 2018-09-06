@@ -1,0 +1,6 @@
+2018-08-25 17:15:47,540 - DEBUG - imc subrank: 1, 1
+2018-08-25 17:15:47,545 - DEBUG - Initialized network @rank/subrank= 1/1, {'dropout': 0.2, 'optimizer': 'adadelta', 'activation': 'sigmoid', 'nbLayers': 9, 'nbNeurons': 64}
+2018-08-27 06:56:28,599 - DEBUG - imc subrank: 1, 1
+2018-08-27 06:56:28,603 - DEBUG - Initialized network @rank/subrank= 1/1, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'sigmoid', 'nbLayers': 9, 'nbNeurons': 64}
+2018-08-28 07:48:14,986 - DEBUG - imc subrank: 1, 1
+2018-08-28 07:48:14,989 - DEBUG - Initialized network @rank/subrank= 1/1, {'dropout': 0.3, 'optimizer': 'rmsprop', 'activation': 'sigmoid', 'nbLayers': 12, 'nbNeurons': 512}

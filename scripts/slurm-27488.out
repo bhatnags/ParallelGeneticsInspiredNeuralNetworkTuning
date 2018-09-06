@@ -1,0 +1,70 @@
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-08-28 07:48:19.411851: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 27488 ON boyle-n011 CANCELLED AT 2018-08-30T07:48:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 27488.0 ON boyle-n011 CANCELLED AT 2018-08-30T07:48:17 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+TCHPC Cluster: boyle
+Job 27488 (innt07) for User 'bhatnags' in Account '(null)'
+Finished at: Thu Aug 30 07:48:17 IST 2018
+
+Job completion status:
+======================
+
+       JobID    JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+27488            innt07        28             1                                                    2-00:00:05    TIMEOUT      0:0 
+27488.0      hydra_pmi+         1      1      1                                                    2-00:00:05    TIMEOUT      0:0 
+
+
+Job details:
+============
+
+JobId=27488 JobName=innt07
+   UserId=bhatnags(1460) GroupId=bhatnags(1106) MCS_label=N/A
+   Priority=101164 Nice=0 Account=(null) QOS=normal
+   JobState=COMPLETING Reason=TimeLimit Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=2-00:00:05 TimeLimit=2-00:00:00 TimeMin=N/A
+   SubmitTime=2018-08-28T07:15:15 EligibleTime=2018-08-28T07:15:15
+   StartTime=2018-08-28T07:48:12 EndTime=2018-08-30T07:48:17 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=compute AllocNode:Sid=boyle01:40860
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=boyle-n011
+   BatchHost=boyle-n011
+   NumNodes=1 NumCPUs=28 NumTasks=7 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=28,mem=63000M,node=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+     Nodes=boyle-n011 CPU_IDs=0-27 Mem=63000 GRES_IDX=
+   MinCPUsNode=1 MinMemoryNode=63000M MinTmpDiskNode=0
+   Features=LargeMem DelayBoot=00:00:00
+   Gres=(null) Reservation=bhatnags_39
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/users/mschpc/2017/bhatnags/testResults/final/ISLANDfiles/innts07/bashscript.sh
+   WorkDir=/home/users/mschpc/2017/bhatnags/testResults/final/ISLANDfiles/innts07
+   StdErr=/home/users/mschpc/2017/bhatnags/testResults/final/ISLANDfiles/innts07/slurm-27488.out
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2017/bhatnags/testResults/final/ISLANDfiles/innts07/slurm-27488.out
+   Power=
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

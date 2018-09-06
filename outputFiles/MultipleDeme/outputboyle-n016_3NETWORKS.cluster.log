@@ -1,0 +1,201 @@
+2018-08-27 16:05:10,507 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:05:10,509 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:05:10,509 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:05:10,511 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:05:10,511 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:05:10,511 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:05:10,512 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:05:10,512 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:05:10,512 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:05:10,514 - DEBUG - Crossover Done, generation = 0, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 16:05:10,514 - DEBUG - Crossover Done, generation = 0, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 768}
+2018-08-27 16:05:10,514 - DEBUG - Crossover Done, generation = 0, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:05:10,515 - DEBUG - Mutation Done, generation = 0, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 16:05:10,515 - DEBUG - Mutation Done, generation = 0, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 768}
+2018-08-27 16:05:10,516 - DEBUG - Mutation Done, generation = 0, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:11:41,369 - DEBUG - Training Done, generation = 0, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 16:11:41,372 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:26:21,147 - DEBUG - Training Done, generation = 0, rank = 1, processid = boyle-n016.cluster, parentFitness = 43.3800, childFitness = 42.9400
+2018-08-27 16:26:21,150 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:26:21,152 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:26:21,152 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:26:22,892 - DEBUG - Training Done, generation = 0, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 16:26:22,894 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:26:22,895 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:26:22,896 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:26:22,896 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:26:22,897 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:26:22,898 - DEBUG - Crossover Done, generation = 1, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 16:26:22,898 - DEBUG - Crossover Done, generation = 1, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:26:22,899 - DEBUG - Crossover Done, generation = 1, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:26:22,899 - DEBUG - Mutation Done, generation = 1, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 16:26:22,899 - DEBUG - Mutation Done, generation = 1, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:26:22,899 - DEBUG - Mutation Done, generation = 1, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:32:58,977 - DEBUG - Training Done, generation = 1, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 16:32:58,980 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:47:47,452 - DEBUG - Training Done, generation = 1, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 16:47:47,456 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:47:47,459 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:47:47,460 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:49:12,241 - DEBUG - Training Done, generation = 1, rank = 1, processid = boyle-n016.cluster, parentFitness = 44.0100, childFitness = 43.3200
+2018-08-27 16:49:12,244 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:49:12,245 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:49:12,246 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 16:49:12,247 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:49:12,248 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 16:49:12,249 - DEBUG - Crossover Done, generation = 2, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:49:12,249 - DEBUG - Crossover Done, generation = 2, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 16:49:12,250 - DEBUG - Mutation Done, generation = 2, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:49:12,250 - DEBUG - Mutation Done, generation = 2, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 16:49:12,249 - DEBUG - Crossover Done, generation = 2, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:49:12,251 - DEBUG - Mutation Done, generation = 2, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 16:56:27,635 - DEBUG - Training Done, generation = 2, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 16:56:27,638 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:10:43,267 - DEBUG - Training Done, generation = 2, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 17:10:43,272 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:10:43,273 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:10:43,274 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:13:37,930 - DEBUG - Training Done, generation = 2, rank = 1, processid = boyle-n016.cluster, parentFitness = 39.9300, childFitness = 43.0500
+2018-08-27 17:13:37,933 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 17:13:37,934 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 17:13:37,935 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:13:37,934 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:13:37,935 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 768}
+2018-08-27 17:13:37,936 - DEBUG - Crossover Done, generation = 3, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:13:37,936 - DEBUG - Crossover Done, generation = 3, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 17:13:37,937 - DEBUG - Mutation Done, generation = 3, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:13:37,937 - DEBUG - Crossover Done, generation = 3, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 17:13:37,937 - DEBUG - Mutation Done, generation = 3, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 17:13:37,937 - DEBUG - Mutation Done, generation = 3, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 17:20:53,317 - DEBUG - Training Done, generation = 3, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 17:20:53,320 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:21:22,672 - DEBUG - Training Done, generation = 3, rank = 1, processid = boyle-n016.cluster, parentFitness = 44.9700, childFitness = 43.7200
+2018-08-27 17:21:22,675 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 17:21:22,677 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 17:21:22,677 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:35:12,308 - DEBUG - Training Done, generation = 3, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 17:35:12,312 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:35:12,313 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:35:12,314 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 17:35:12,317 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:35:12,318 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:35:12,320 - DEBUG - Crossover Done, generation = 4, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 17:35:12,320 - DEBUG - Crossover Done, generation = 4, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:35:12,320 - DEBUG - Mutation Done, generation = 4, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 17:35:12,320 - DEBUG - Crossover Done, generation = 4, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:35:12,321 - DEBUG - Mutation Done, generation = 4, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:35:12,321 - DEBUG - Mutation Done, generation = 4, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:43:00,269 - DEBUG - Training Done, generation = 4, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 17:43:00,272 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:46:38,412 - DEBUG - Training Done, generation = 4, rank = 1, processid = boyle-n016.cluster, parentFitness = 42.5900, childFitness = 42.4300
+2018-08-27 17:46:38,416 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:46:38,418 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:46:38,419 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:56:55,609 - DEBUG - Training Done, generation = 4, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 17:56:55,613 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:56:55,614 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:56:55,614 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:56:55,615 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:56:55,615 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:56:55,616 - DEBUG - Crossover Done, generation = 5, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:56:55,617 - DEBUG - Mutation Done, generation = 5, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 17:56:55,617 - DEBUG - Crossover Done, generation = 5, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:56:55,617 - DEBUG - Crossover Done, generation = 5, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:56:55,618 - DEBUG - Mutation Done, generation = 5, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 17:56:55,618 - DEBUG - Mutation Done, generation = 5, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:05:27,767 - DEBUG - Training Done, generation = 5, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 18:05:27,771 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:08:08,330 - DEBUG - Training Done, generation = 5, rank = 1, processid = boyle-n016.cluster, parentFitness = 40.6400, childFitness = 38.5700
+2018-08-27 18:08:08,333 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:08:08,335 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:08:08,335 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:19:07,255 - DEBUG - Training Done, generation = 5, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 18:19:07,258 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 18:19:07,259 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 18:19:07,260 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:19:07,260 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:19:07,260 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 18:19:07,261 - DEBUG - Crossover Done, generation = 6, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 18:19:07,262 - DEBUG - Crossover Done, generation = 6, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 18:19:07,262 - DEBUG - Mutation Done, generation = 6, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 18:19:07,262 - DEBUG - Crossover Done, generation = 6, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:19:07,263 - DEBUG - Mutation Done, generation = 6, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:19:07,263 - DEBUG - Mutation Done, generation = 6, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'nadam', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 18:26:41,724 - DEBUG - Training Done, generation = 6, rank = 1, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 18:26:41,727 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:28:16,367 - DEBUG - Training Done, generation = 6, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 18:28:16,371 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:28:16,372 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:28:16,373 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:41:31,782 - DEBUG - Training Done, generation = 6, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 18:41:31,785 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 18:41:31,787 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 18:41:31,787 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:41:31,788 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:41:31,789 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 18:41:31,791 - DEBUG - Crossover Done, generation = 7, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 18:41:31,791 - DEBUG - Crossover Done, generation = 7, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:41:31,792 - DEBUG - Mutation Done, generation = 7, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:41:31,791 - DEBUG - Crossover Done, generation = 7, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 18:41:31,792 - DEBUG - Mutation Done, generation = 7, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 18:41:31,792 - DEBUG - Mutation Done, generation = 7, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 256}
+2018-08-27 18:49:44,546 - DEBUG - Training Done, generation = 7, rank = 1, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 18:49:44,550 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:51:05,070 - DEBUG - Training Done, generation = 7, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 18:51:05,073 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:51:05,074 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 18:51:05,075 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:04:18,303 - DEBUG - Training Done, generation = 7, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 19:04:18,306 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:04:18,307 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:04:18,308 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:04:18,309 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:04:18,310 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:04:18,312 - DEBUG - Crossover Done, generation = 8, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:04:18,312 - DEBUG - Crossover Done, generation = 8, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 19:04:18,312 - DEBUG - Mutation Done, generation = 8, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 19:04:18,313 - DEBUG - Mutation Done, generation = 8, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'hard_sigmoid', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:04:18,312 - DEBUG - Crossover Done, generation = 8, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:04:18,313 - DEBUG - Mutation Done, generation = 8, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:13:04,823 - DEBUG - Training Done, generation = 8, rank = 1, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 19:13:04,826 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:14:22,279 - DEBUG - Training Done, generation = 8, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 19:14:22,282 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:14:22,284 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:14:22,284 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:27:19,485 - DEBUG - Training Done, generation = 8, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 19:27:19,489 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:27:19,490 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:27:19,491 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:27:19,491 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:27:19,491 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:27:19,492 - DEBUG - Crossover Done, generation = 9, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 19:27:19,493 - DEBUG - Crossover Done, generation = 9, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 19:27:19,493 - DEBUG - Mutation Done, generation = 9, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 19:27:19,493 - DEBUG - Crossover Done, generation = 9, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:27:19,494 - DEBUG - Mutation Done, generation = 9, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:27:19,494 - DEBUG - Mutation Done, generation = 9, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 1024}
+2018-08-27 19:36:33,555 - DEBUG - Training Done, generation = 9, rank = 1, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 19:36:33,558 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:37:59,767 - DEBUG - Training Done, generation = 9, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 19:37:59,770 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:37:59,771 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:37:59,772 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:50:17,720 - DEBUG - Training Done, generation = 9, rank = 2, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 19:50:17,723 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:50:17,724 - DEBUG - for data after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:50:17,725 - DEBUG - for dad after exchange rank = 2, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:50:17,725 - DEBUG - for data after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:50:17,726 - DEBUG - for dad after exchange rank = 0, processid = boyle-n016.cluster, {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:50:17,727 - DEBUG - Crossover Done, generation = 10, rank = 0, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:50:17,727 - DEBUG - Crossover Done, generation = 10, rank = 2, processid = boyle-n016.cluster, child = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:50:17,727 - DEBUG - Mutation Done, generation = 10, rank = 0, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'nadam', 'activation': 'linear', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-27 19:50:17,728 - DEBUG - Crossover Done, generation = 10, rank = 1, processid = boyle-n016.cluster, child = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:50:17,728 - DEBUG - Mutation Done, generation = 10, rank = 2, processid =boyle-n016.cluster, network = {'dropout': 0.2, 'optimizer': 'rmsprop', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 19:50:17,729 - DEBUG - Mutation Done, generation = 10, rank = 1, processid =boyle-n016.cluster, network = {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 20:00:31,374 - DEBUG - Training Done, generation = 10, rank = 0, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 20:00:31,377 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 20:00:38,655 - DEBUG - Training Done, generation = 10, rank = 1, processid = boyle-n016.cluster, parentFitness = 10.0000, childFitness = 10.0000
+2018-08-27 20:00:38,658 - DEBUG - Initialized network = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 20:00:38,659 - DEBUG - for data after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}
+2018-08-27 20:00:38,660 - DEBUG - for dad after exchange rank = 1, processid = boyle-n016.cluster, {'dropout': 0.25, 'optimizer': 'adam', 'activation': 'linear', 'nbLayers': 12, 'nbNeurons': 256}

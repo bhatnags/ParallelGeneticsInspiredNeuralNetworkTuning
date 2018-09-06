@@ -1,0 +1,73 @@
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-08-26 04:25:01.655530: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-08-26 04:25:01.726926: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-08-26 04:25:01.854312: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-08-26 04:25:02.134858: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-08-26 04:25:03.464650: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-08-26 04:25:04.974593: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-08-26 04:25:06.716468: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+
+
+###############################################################################
+TCHPC Cluster: boyle
+Job 27386 (dnnt07) for User 'bhatnags' in Account '(null)'
+Finished at: Sun Aug 26 08:55:31 IST 2018
+
+Job completion status:
+======================
+
+       JobID    JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+27386            dnnt07        28             1                                                      04:30:36    RUNNING      0:0 
+27386.0      hydra_pmi+         1      1      1  30807856K    boyle-n011        0.02M        0.01M   04:30:36  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=27386 JobName=dnnt07
+   UserId=bhatnags(1460) GroupId=bhatnags(1106) MCS_label=N/A
+   Priority=104534 Nice=0 Account=(null) QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=04:30:36 TimeLimit=22:00:00 TimeMin=N/A
+   SubmitTime=2018-08-25T16:32:49 EligibleTime=2018-08-25T16:32:49
+   StartTime=2018-08-26T04:24:55 EndTime=2018-08-26T08:55:31 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=compute AllocNode:Sid=boyle01:19862
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=
+   BatchHost=boyle-n011
+   NumNodes=1 NumCPUs=28 NumTasks=7 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=28,mem=63000M,node=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+     Nodes=boyle-n011 CPU_IDs=0-27 Mem=63000 GRES_IDX=
+   MinCPUsNode=1 MinMemoryNode=63000M MinTmpDiskNode=0
+   Features=LargeMem DelayBoot=00:00:00
+   Gres=(null) Reservation=bhatnags_39
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt07/bashscript.sh
+   WorkDir=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt07
+   StdErr=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt07/slurm-27386.out
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2017/bhatnags/testResults/final/Distri/dnnt07/slurm-27386.out
+   Power=
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

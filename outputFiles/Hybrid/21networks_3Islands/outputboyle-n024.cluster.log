@@ -1,0 +1,27 @@
+2018-08-28 19:00:51,992 - DEBUG - imc subrank: 2, 9
+2018-08-28 19:00:51,992 - DEBUG - imc subrank: 5, 5
+2018-08-28 19:00:51,992 - DEBUG - imc subrank: 0, 7
+2018-08-28 19:00:51,992 - DEBUG - imc subrank: 1, 1
+2018-08-28 19:00:51,992 - DEBUG - imc subrank: 4, 4
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 6, 6
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 0, 0
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 3, 3
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 1, 8
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 3, 10
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 2, 2
+2018-08-28 19:00:51,994 - DEBUG - Initialized network @rank/subrank= 9/2, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'elu', 'nbLayers': 15, 'nbNeurons': 1024}
+2018-08-28 19:00:51,995 - DEBUG - Initialized network @rank/subrank= 7/0, {'dropout': 0.5, 'optimizer': 'adamax', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 32}
+2018-08-28 19:00:51,995 - DEBUG - Initialized network @rank/subrank= 1/1, {'dropout': 0.15, 'optimizer': 'adam', 'activation': 'sigmoid', 'nbLayers': 6, 'nbNeurons': 512}
+2018-08-28 19:00:51,995 - DEBUG - Initialized network @rank/subrank= 5/5, {'dropout': 0.2, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 3, 'nbNeurons': 512}
+2018-08-28 19:00:51,997 - DEBUG - Initialized network @rank/subrank= 4/4, {'dropout': 0.5, 'optimizer': 'adagrad', 'activation': 'sigmoid', 'nbLayers': 20, 'nbNeurons': 128}
+2018-08-28 19:00:51,997 - DEBUG - Initialized network @rank/subrank= 3/3, {'dropout': 0.1, 'optimizer': 'adamax', 'activation': 'sigmoid', 'nbLayers': 12, 'nbNeurons': 768}
+2018-08-28 19:00:51,997 - DEBUG - Initialized network @rank/subrank= 6/6, {'dropout': 0.5, 'optimizer': 'adam', 'activation': 'sigmoid', 'nbLayers': 6, 'nbNeurons': 512}
+2018-08-28 19:00:51,997 - DEBUG - Initialized network @rank/subrank= 0/0, {'dropout': 0.25, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 15, 'nbNeurons': 64}
+2018-08-28 19:00:51,998 - DEBUG - Initialized network @rank/subrank= 8/1, {'dropout': 0.4, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 9, 'nbNeurons': 64}
+2018-08-28 19:00:51,998 - DEBUG - Initialized network @rank/subrank= 10/3, {'dropout': 0.4, 'optimizer': 'rmsprop', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 32}
+2018-08-28 19:00:51,998 - DEBUG - Initialized network @rank/subrank= 2/2, {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 20, 'nbNeurons': 1024}
+2018-08-28 19:00:52,001 - DEBUG - for data after exchange rank = 0, {'dropout': 0.25, 'optimizer': 'sgd', 'activation': 'sigmoid', 'nbLayers': 15, 'nbNeurons': 64}
+2018-08-28 19:00:52,002 - DEBUG - for dad after exchange rank = 0, {'dropout': 0.3, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 1, 'nbNeurons': 768}
+2018-08-28 19:00:52,004 - DEBUG - Crossover Done, generation = 0, rank = 0, child = {'dropout': 0.3, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 15, 'nbNeurons': 768}
+2018-08-28 19:00:52,005 - DEBUG - Mutation Done, generation = 0, rank = 0, network = {'dropout': 0.3, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 15, 'nbNeurons': 768}
+2018-08-28 19:03:20,115 - DEBUG - Training Done, generation = 0, rank = 0, parentFitness = 10.0000, childFitness = 10.0000

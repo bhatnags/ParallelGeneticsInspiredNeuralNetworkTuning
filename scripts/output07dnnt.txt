@@ -1,0 +1,819 @@
+True
+True
+True
+True
+True
+True
+True
+False
+False
+False
+False
+False
+False
+False
+Filename: dnnt.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+Filename: dnnt.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+Filename: dnnt.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    26    121.8 MiB      0.0 MiB   @profile
+Filename: dnnt.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    27                             def DNNT():
+    28                             	"""Give parameters"""
+    29    121.8 MiB      0.0 MiB   	gen = 30
+    30    121.8 MiB      0.0 MiB   	dataset = 'cifar10'
+Filename: dnnt.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    26    121.8 MiB      0.0 MiB   @profile
+    27                             def DNNT():
+    28                             	"""Give parameters"""
+    29    121.8 MiB      0.0 MiB   	gen = 30
+    30    121.8 MiB      0.0 MiB   	dataset = 'cifar10'
+    31                             	# Probability of mutation being 2%
+    32    121.8 MiB      0.0 MiB   	mutationChance = 2 
+    33                             	
+    31                             	# Probability of mutation being 2%
+    32    121.8 MiB      0.0 MiB   	mutationChance = 2 
+    33                             	
+    34                             	
+    35    121.8 MiB      0.0 MiB   	param = collections.OrderedDict({
+    36    121.8 MiB      0.0 MiB   		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
+    37    121.8 MiB      0.0 MiB   		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
+    26    121.8 MiB      0.0 MiB   @profile
+    27                             def DNNT():
+    28                             	"""Give parameters"""
+    29    121.8 MiB      0.0 MiB   	gen = 30
+    26    121.8 MiB      0.0 MiB   @profile
+    27                             def DNNT():
+    28                             	"""Give parameters"""
+    29    121.8 MiB      0.0 MiB   	gen = 30
+    34                             	
+    35    121.8 MiB      0.0 MiB   	param = collections.OrderedDict({
+    36    121.8 MiB      0.0 MiB   		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
+    37    121.8 MiB      0.0 MiB   		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
+    38    121.8 MiB      0.0 MiB   		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
+    39    121.8 MiB      0.0 MiB   		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
+    40    121.8 MiB      0.0 MiB   		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+    41                             	})
+    38    121.8 MiB      0.0 MiB   		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
+    39    121.8 MiB      0.0 MiB   		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
+    40    121.8 MiB      0.0 MiB   		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+    41                             	})
+    42                             
+    43                             	# Initializing the MPI and testing if it's been initialized
+    44    122.6 MiB      0.8 MiB   	MPI.Init()
+    30    121.8 MiB      0.0 MiB   	dataset = 'cifar10'
+    31                             	# Probability of mutation being 2%
+    32    121.8 MiB      0.0 MiB   	mutationChance = 2 
+    33                             	
+    34                             	
+    35    121.8 MiB      0.0 MiB   	param = collections.OrderedDict({
+    36    121.8 MiB      0.0 MiB   		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
+    30    121.8 MiB      0.0 MiB   	dataset = 'cifar10'
+    31                             	# Probability of mutation being 2%
+    32    121.8 MiB      0.0 MiB   	mutationChance = 2 
+    33                             	
+    34                             	
+    35    121.8 MiB      0.0 MiB   	param = collections.OrderedDict({
+    36    121.8 MiB      0.0 MiB   		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
+    26    121.8 MiB      0.0 MiB   @profile
+    27                             def DNNT():
+    28                             	"""Give parameters"""
+    29    121.8 MiB      0.0 MiB   	gen = 30
+    30    121.8 MiB      0.0 MiB   	dataset = 'cifar10'
+    31                             	# Probability of mutation being 2%
+    32    121.8 MiB      0.0 MiB   	mutationChance = 2 
+    33                             	
+    34                             	
+    35    121.8 MiB      0.0 MiB   	param = collections.OrderedDict({
+    42                             
+    43                             	# Initializing the MPI and testing if it's been initialized
+    44    122.6 MiB      0.8 MiB   	MPI.Init()
+    45    122.6 MiB      0.0 MiB   	print(MPI.Is_initialized())
+    46    122.6 MiB      0.0 MiB   	print(MPI.Is_finalized())
+    47                             	
+    48                             	# Initlialize the MPI class functions
+    49    122.6 MiB      0.0 MiB   	pd = parallel.parallelDistributed(MPI, param)
+    50                             	
+    51    122.6 MiB      0.0 MiB   	filename = 'output{}.log'.format(socket.gethostname())
+    52    122.6 MiB      0.0 MiB   	logger = logging.getLogger()
+    45    122.6 MiB      0.0 MiB   	print(MPI.Is_initialized())
+    46    122.6 MiB      0.0 MiB   	print(MPI.Is_finalized())
+    47                             	
+    48                             	# Initlialize the MPI class functions
+    49    122.6 MiB      0.0 MiB   	pd = parallel.parallelDistributed(MPI, param)
+    50                             	
+    51    122.6 MiB      0.0 MiB   	filename = 'output{}.log'.format(socket.gethostname())
+    52    122.6 MiB      0.0 MiB   	logger = logging.getLogger()
+    53    122.6 MiB      0.0 MiB   	handler = logging.FileHandler(filename)
+    37    121.8 MiB      0.0 MiB   		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
+    38    121.8 MiB      0.0 MiB   		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
+    39    121.8 MiB      0.0 MiB   		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
+    40    121.8 MiB      0.0 MiB   		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+    41                             	})
+    42                             
+    43                             	# Initializing the MPI and testing if it's been initialized
+    44    122.6 MiB      0.8 MiB   	MPI.Init()
+    37    121.8 MiB      0.0 MiB   		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
+    38    121.8 MiB      0.0 MiB   		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
+    39    121.8 MiB      0.0 MiB   		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
+    40    121.8 MiB      0.0 MiB   		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+    41                             	})
+    42                             
+    43                             	# Initializing the MPI and testing if it's been initialized
+    44    122.6 MiB      0.8 MiB   	MPI.Init()
+    45    122.6 MiB      0.0 MiB   	print(MPI.Is_initialized())
+    36    121.8 MiB      0.0 MiB   		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
+    37    121.8 MiB      0.0 MiB   		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
+    38    121.8 MiB      0.0 MiB   		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
+    39    121.8 MiB      0.0 MiB   		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
+    40    121.8 MiB      0.0 MiB   		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+    41                             	})
+    42                             
+    43                             	# Initializing the MPI and testing if it's been initialized
+    44    122.6 MiB      0.8 MiB   	MPI.Init()
+    45    122.6 MiB      0.0 MiB   	print(MPI.Is_initialized())
+    46    122.6 MiB      0.0 MiB   	print(MPI.Is_finalized())
+    53    122.6 MiB      0.0 MiB   	handler = logging.FileHandler(filename)
+    54    122.6 MiB      0.0 MiB   	handler.setLevel(logging.DEBUG)
+    55    122.6 MiB      0.0 MiB   	formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    56    122.6 MiB      0.0 MiB   	handler.setFormatter(formatter)
+    57    122.6 MiB      0.0 MiB   	logger.addHandler(handler)
+    58    122.6 MiB      0.0 MiB   	logger.setLevel(logging.DEBUG)
+    59                             
+    60                             	# initialize the networks
+    61                             	# one random network at every processor
+    62    122.6 MiB      0.0 MiB   	net = network.Network(param)
+    63    122.6 MiB      0.0 MiB   	data = net.initNetwork()
+    64                             
+    65    122.6 MiB      0.0 MiB   	bestFitness = -1
+    54    122.6 MiB      0.0 MiB   	handler.setLevel(logging.DEBUG)
+    55    122.6 MiB      0.0 MiB   	formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    56    122.6 MiB      0.0 MiB   	handler.setFormatter(formatter)
+    57    122.6 MiB      0.0 MiB   	logger.addHandler(handler)
+    58    122.6 MiB      0.0 MiB   	logger.setLevel(logging.DEBUG)
+    59                             
+    60                             	# initialize the networks
+    61                             	# one random network at every processor
+    62    122.6 MiB      0.0 MiB   	net = network.Network(param)
+    63    122.6 MiB      0.0 MiB   	data = net.initNetwork()
+    64                             
+    65    122.6 MiB      0.0 MiB   	bestFitness = -1
+    66    122.6 MiB      0.0 MiB   	ga = genetic.geneticAlgorithm(param)
+    45    122.6 MiB      0.0 MiB   	print(MPI.Is_initialized())
+    46    122.6 MiB      0.0 MiB   	print(MPI.Is_finalized())
+    47                             	
+    48                             	# Initlialize the MPI class functions
+    49    122.6 MiB      0.0 MiB   	pd = parallel.parallelDistributed(MPI, param)
+    50                             	
+    51    122.6 MiB      0.0 MiB   	filename = 'output{}.log'.format(socket.gethostname())
+    52    122.6 MiB      0.0 MiB   	logger = logging.getLogger()
+    53    122.6 MiB      0.0 MiB   	handler = logging.FileHandler(filename)
+    54    122.6 MiB      0.0 MiB   	handler.setLevel(logging.DEBUG)
+    55    122.6 MiB      0.0 MiB   	formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    46    122.6 MiB      0.0 MiB   	print(MPI.Is_finalized())
+    47                             	
+    48                             	# Initlialize the MPI class functions
+    49    122.6 MiB      0.0 MiB   	pd = parallel.parallelDistributed(MPI, param)
+    50                             	
+    51    122.6 MiB      0.0 MiB   	filename = 'output{}.log'.format(socket.gethostname())
+    52    122.6 MiB      0.0 MiB   	logger = logging.getLogger()
+    53    122.6 MiB      0.0 MiB   	handler = logging.FileHandler(filename)
+    54    122.6 MiB      0.0 MiB   	handler.setLevel(logging.DEBUG)
+    55    122.6 MiB      0.0 MiB   	formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    56    122.6 MiB      0.0 MiB   	handler.setFormatter(formatter)
+    47                             	
+    48                             	# Initlialize the MPI class functions
+    49    122.6 MiB      0.0 MiB   	pd = parallel.parallelDistributed(MPI, param)
+    50                             	
+    51    122.6 MiB      0.0 MiB   	filename = 'output{}.log'.format(socket.gethostname())
+    52    122.6 MiB      0.0 MiB   	logger = logging.getLogger()
+    53    122.6 MiB      0.0 MiB   	handler = logging.FileHandler(filename)
+    54    122.6 MiB      0.0 MiB   	handler.setLevel(logging.DEBUG)
+    55    122.6 MiB      0.0 MiB   	formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    56    122.6 MiB      0.0 MiB   	handler.setFormatter(formatter)
+    57    122.6 MiB      0.0 MiB   	logger.addHandler(handler)
+    66    122.6 MiB      0.0 MiB   	ga = genetic.geneticAlgorithm(param)
+    67                             
+    68   4147.8 MiB   4025.2 MiB   	for g in range(gen):
+    69   4147.8 MiB      0.0 MiB   		if bestFitness < 100:
+    70                             			#Natural Selection, part I of Genetic Algorithm
+    71   4147.8 MiB      0.0 MiB   			mum=data
+    72   4147.8 MiB      0.0 MiB   			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
+    73   4147.8 MiB      0.0 MiB   			dad = pd.nonBlockingExchange(data)
+    74   4147.8 MiB      0.0 MiB   			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
+    75   4147.8 MiB      0.0 MiB   			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
+    67                             
+    68   4218.2 MiB   4095.6 MiB   	for g in range(gen):
+    69   4218.2 MiB      0.0 MiB   		if bestFitness < 100:
+    70                             			#Natural Selection, part I of Genetic Algorithm
+    71   4218.2 MiB      0.0 MiB   			mum=data
+    72   4218.2 MiB      0.0 MiB   			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
+    73   4218.2 MiB      0.0 MiB   			dad = pd.nonBlockingExchange(data)
+    74   4218.2 MiB      0.0 MiB   			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
+    75   4218.2 MiB      0.0 MiB   			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
+    76   4218.2 MiB      0.0 MiB   			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
+    56    122.6 MiB      0.0 MiB   	handler.setFormatter(formatter)
+    57    122.6 MiB      0.0 MiB   	logger.addHandler(handler)
+    58    122.6 MiB      0.0 MiB   	logger.setLevel(logging.DEBUG)
+    59                             
+    60                             	# initialize the networks
+    61                             	# one random network at every processor
+    62    122.6 MiB      0.0 MiB   	net = network.Network(param)
+    63    122.6 MiB      0.0 MiB   	data = net.initNetwork()
+    64                             
+    65    122.6 MiB      0.0 MiB   	bestFitness = -1
+    66    122.6 MiB      0.0 MiB   	ga = genetic.geneticAlgorithm(param)
+    67                             
+    57    122.6 MiB      0.0 MiB   	logger.addHandler(handler)
+    58    122.6 MiB      0.0 MiB   	logger.setLevel(logging.DEBUG)
+    59                             
+    60                             	# initialize the networks
+    61                             	# one random network at every processor
+    62    122.6 MiB      0.0 MiB   	net = network.Network(param)
+    63    122.6 MiB      0.0 MiB   	data = net.initNetwork()
+    64                             
+    65    122.6 MiB      0.0 MiB   	bestFitness = -1
+    66    122.6 MiB      0.0 MiB   	ga = genetic.geneticAlgorithm(param)
+Filename: dnnt.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    26    121.8 MiB      0.0 MiB   @profile
+    27                             def DNNT():
+    58    122.6 MiB      0.0 MiB   	logger.setLevel(logging.DEBUG)
+    59                             
+    60                             	# initialize the networks
+    61                             	# one random network at every processor
+    62    122.6 MiB      0.0 MiB   	net = network.Network(param)
+    63    122.6 MiB      0.0 MiB   	data = net.initNetwork()
+    64                             
+    65    122.6 MiB      0.0 MiB   	bestFitness = -1
+    66    122.6 MiB      0.0 MiB   	ga = genetic.geneticAlgorithm(param)
+    67                             
+    68   4334.7 MiB   4212.1 MiB   	for g in range(gen):
+    69   3998.9 MiB   -335.8 MiB   		if bestFitness < 100:
+    70                             			#Natural Selection, part I of Genetic Algorithm
+    76   4147.8 MiB      0.0 MiB   			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
+    77                             			# now the parameters of the prev network are stored in dad
+    78                             			# the parameters of the current network are stored in mum
+    79                             		
+    80                             			# crossover of parents
+    81   4147.8 MiB      0.0 MiB   			child = ga.crossover(mum, dad)
+    82   4147.8 MiB      0.0 MiB   			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
+    83                             
+    84                             			#Mutation of child
+    85   4147.8 MiB      0.0 MiB   			ga.mutation(child, mutationChance)	
+    86   4147.8 MiB      0.0 MiB   			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
+    87                             
+    88                             			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
+    89                             			# Set the dictionaries to network for evaluation
+    77                             			# now the parameters of the prev network are stored in dad
+    78                             			# the parameters of the current network are stored in mum
+    79                             		
+    80                             			# crossover of parents
+    81   4218.2 MiB      0.0 MiB   			child = ga.crossover(mum, dad)
+    82   4218.2 MiB      0.0 MiB   			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
+    83                             
+    84                             			#Mutation of child
+    85   4218.2 MiB      0.0 MiB   			ga.mutation(child, mutationChance)	
+    86   4218.2 MiB      0.0 MiB   			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
+    87                             
+    88                             			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
+    89                             			# Set the dictionaries to network for evaluation
+    90   4378.1 MiB    159.9 MiB   			fitnessMum = ga.getFitness(mum, dataset)
+    91   4218.2 MiB   -159.9 MiB   			fitnessChild = ga.getFitness(child, dataset)
+    68   3725.1 MiB   3602.5 MiB   	for g in range(gen):
+    69   3725.1 MiB      0.0 MiB   		if bestFitness < 100:
+    70                             			#Natural Selection, part I of Genetic Algorithm
+    71   3725.1 MiB      0.0 MiB   			mum=data
+    72   3725.1 MiB      0.0 MiB   			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
+    73   3725.1 MiB      0.0 MiB   			dad = pd.nonBlockingExchange(data)
+    74   3725.1 MiB      0.0 MiB   			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
+    75   3725.1 MiB      0.0 MiB   			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
+    76   3725.1 MiB      0.0 MiB   			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
+    77                             			# now the parameters of the prev network are stored in dad
+    78                             			# the parameters of the current network are stored in mum
+    79                             		
+    80                             			# crossover of parents
+    67                             
+    68   3842.0 MiB   3719.4 MiB   	for g in range(gen):
+    69   3842.0 MiB      0.0 MiB   		if bestFitness < 100:
+    70                             			#Natural Selection, part I of Genetic Algorithm
+    71   3842.0 MiB      0.0 MiB   			mum=data
+    72   3842.0 MiB      0.0 MiB   			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
+    73   3842.0 MiB      0.0 MiB   			dad = pd.nonBlockingExchange(data)
+    74   3842.0 MiB      0.0 MiB   			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
+    75   3842.0 MiB      0.0 MiB   			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
+    76   3842.0 MiB      0.0 MiB   			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
+    77                             			# now the parameters of the prev network are stored in dad
+    78                             			# the parameters of the current network are stored in mum
+    28                             	"""Give parameters"""
+    29    121.8 MiB      0.0 MiB   	gen = 30
+    30    121.8 MiB      0.0 MiB   	dataset = 'cifar10'
+    31                             	# Probability of mutation being 2%
+    32    121.8 MiB      0.0 MiB   	mutationChance = 2 
+    33                             	
+    34                             	
+    35    121.8 MiB      0.0 MiB   	param = collections.OrderedDict({
+    36    121.8 MiB      0.0 MiB   		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
+    71   3998.9 MiB      0.0 MiB   			mum=data
+    72   3998.9 MiB      0.0 MiB   			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
+    73   3998.9 MiB      0.0 MiB   			dad = pd.nonBlockingExchange(data)
+    74   3998.9 MiB      0.0 MiB   			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
+    75   3998.9 MiB      0.0 MiB   			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
+    76   3998.9 MiB      0.0 MiB   			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
+    77                             			# now the parameters of the prev network are stored in dad
+    78                             			# the parameters of the current network are stored in mum
+    79                             		
+    80                             			# crossover of parents
+    81   3998.9 MiB      0.0 MiB   			child = ga.crossover(mum, dad)
+    90   3990.0 MiB   -157.8 MiB   			fitnessMum = ga.getFitness(mum, dataset)
+    91   4147.8 MiB    157.8 MiB   			fitnessChild = ga.getFitness(child, dataset)
+    92   4147.8 MiB      0.0 MiB   			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
+    93                             
+    94                             			# if evolved child is better than the parent then change the data for next generation to consider
+    95   4147.8 MiB      0.0 MiB   			if fitnessChild > fitnessMum:
+    96                             				data = child
+    97                             				bestFitness = fitnessChild
+    98                             			else:
+    99   4147.8 MiB      0.0 MiB   				data = mum
+   100   4147.8 MiB      0.0 MiB   				bestFitness = fitnessMum
+   101                             
+   102                             			'''
+   103                             			Memory Management
+    92   4218.2 MiB      0.0 MiB   			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
+    93                             
+    94                             			# if evolved child is better than the parent then change the data for next generation to consider
+    95   4218.2 MiB      0.0 MiB   			if fitnessChild > fitnessMum:
+    96    670.7 MiB  -3547.5 MiB   				data = child
+    97    670.7 MiB      0.0 MiB   				bestFitness = fitnessChild
+    98                             			else:
+    99   4218.2 MiB   3547.5 MiB   				data = mum
+   100   4218.2 MiB      0.0 MiB   				bestFitness = fitnessMum
+   101                             
+   102                             			'''
+   103                             			Memory Management
+   104                             			Only data and bestFitness is taken, rest all are deleted
+   105                             			'''
+    81   3725.1 MiB      0.0 MiB   			child = ga.crossover(mum, dad)
+    82   3725.1 MiB      0.0 MiB   			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
+    83                             
+    84                             			#Mutation of child
+    85   3725.1 MiB      0.0 MiB   			ga.mutation(child, mutationChance)	
+    86   3725.1 MiB      0.0 MiB   			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
+    87                             
+    88                             			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
+    89                             			# Set the dictionaries to network for evaluation
+    90   3567.5 MiB   -157.6 MiB   			fitnessMum = ga.getFitness(mum, dataset)
+    91   3725.1 MiB    157.6 MiB   			fitnessChild = ga.getFitness(child, dataset)
+    79                             		
+    80                             			# crossover of parents
+    81   3842.0 MiB      0.0 MiB   			child = ga.crossover(mum, dad)
+    82   3842.0 MiB      0.0 MiB   			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
+    83                             
+    84                             			#Mutation of child
+    85   3842.0 MiB      0.0 MiB   			ga.mutation(child, mutationChance)	
+    86   3842.0 MiB      0.0 MiB   			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
+    87                             
+    88                             			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
+    89                             			# Set the dictionaries to network for evaluation
+    90   3682.4 MiB   -159.7 MiB   			fitnessMum = ga.getFitness(mum, dataset)
+    91   3842.0 MiB    159.7 MiB   			fitnessChild = ga.getFitness(child, dataset)
+    37    121.8 MiB      0.0 MiB   		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
+    38    121.8 MiB      0.0 MiB   		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
+    39    121.8 MiB      0.0 MiB   		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
+    40    121.8 MiB      0.0 MiB   		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+    41                             	})
+    42                             
+    43                             	# Initializing the MPI and testing if it's been initialized
+    44    122.6 MiB      0.8 MiB   	MPI.Init()
+    82   3998.9 MiB      0.0 MiB   			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
+    83                             
+    84                             			#Mutation of child
+    85   3998.9 MiB      0.0 MiB   			ga.mutation(child, mutationChance)	
+    86   3998.9 MiB      0.0 MiB   			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
+    87                             
+    88                             			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
+    89                             			# Set the dictionaries to network for evaluation
+    90   4166.8 MiB    167.9 MiB   			fitnessMum = ga.getFitness(mum, dataset)
+    91   4334.7 MiB    167.9 MiB   			fitnessChild = ga.getFitness(child, dataset)
+    92   4334.7 MiB      0.0 MiB   			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
+    93                             
+    94                             			# if evolved child is better than the parent then change the data for next generation to consider
+    95   4334.7 MiB      0.0 MiB   			if fitnessChild > fitnessMum:
+   104                             			Only data and bestFitness is taken, rest all are deleted
+   105                             			'''
+   106   4147.8 MiB      0.0 MiB   			fitnessChild = None
+   107   4147.8 MiB      0.0 MiB   			fitnessMum = None
+   108   4147.8 MiB      0.0 MiB   			child = None
+   109   4147.8 MiB      0.0 MiB   			dad = None
+   110   4147.8 MiB      0.0 MiB   			mum = None
+   111                             
+   112                             		else:
+   113                             			# Broadcast the best results to all the processors
+   114                             			pd.broadcast(data)
+   115                             			pd.broadcast(bestFitness)
+   116                             			print data
+   117                             			print bestFitness
+   118                             			# And halt
+   119                             			MPI.Finalize()
+   120                             
+   121                             			
+   106   4218.2 MiB      0.0 MiB   			fitnessChild = None
+   107   4218.2 MiB      0.0 MiB   			fitnessMum = None
+   108   4218.2 MiB      0.0 MiB   			child = None
+   109   4218.2 MiB      0.0 MiB   			dad = None
+   110   4218.2 MiB      0.0 MiB   			mum = None
+   111                             
+   112                             		else:
+   113                             			# Broadcast the best results to all the processors
+   114                             			pd.broadcast(data)
+   115                             			pd.broadcast(bestFitness)
+   116                             			print data
+   117                             			print bestFitness
+   118                             			# And halt
+   119                             			MPI.Finalize()
+   120                             
+   121                             			
+    92   3725.1 MiB      0.0 MiB   			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
+    93                             
+    94                             			# if evolved child is better than the parent then change the data for next generation to consider
+    95   3725.1 MiB      0.0 MiB   			if fitnessChild > fitnessMum:
+    96   1532.6 MiB  -2192.6 MiB   				data = child
+    97   1532.6 MiB      0.0 MiB   				bestFitness = fitnessChild
+    98                             			else:
+    99   3725.1 MiB   2192.6 MiB   				data = mum
+   100   3725.1 MiB      0.0 MiB   				bestFitness = fitnessMum
+   101                             
+   102                             			'''
+   103                             			Memory Management
+   104                             			Only data and bestFitness is taken, rest all are deleted
+   105                             			'''
+    92   3842.0 MiB      0.0 MiB   			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
+    93                             
+    94                             			# if evolved child is better than the parent then change the data for next generation to consider
+    95   3842.0 MiB      0.0 MiB   			if fitnessChild > fitnessMum:
+    96   2280.9 MiB  -1561.1 MiB   				data = child
+    97   2280.9 MiB      0.0 MiB   				bestFitness = fitnessChild
+    98                             			else:
+    99   3842.0 MiB   1561.1 MiB   				data = mum
+   100   3842.0 MiB      0.0 MiB   				bestFitness = fitnessMum
+   101                             
+   102                             			'''
+   103                             			Memory Management
+   104                             			Only data and bestFitness is taken, rest all are deleted
+   105                             			'''
+   106   3842.0 MiB      0.0 MiB   			fitnessChild = None
+    45    122.6 MiB      0.0 MiB   	print(MPI.Is_initialized())
+    46    122.6 MiB      0.0 MiB   	print(MPI.Is_finalized())
+    47                             	
+    48                             	# Initlialize the MPI class functions
+    49    122.6 MiB      0.0 MiB   	pd = parallel.parallelDistributed(MPI, param)
+    50                             	
+    51    122.6 MiB      0.0 MiB   	filename = 'output{}.log'.format(socket.gethostname())
+    52    122.6 MiB      0.0 MiB   	logger = logging.getLogger()
+    53    122.6 MiB      0.0 MiB   	handler = logging.FileHandler(filename)
+    54    122.6 MiB      0.0 MiB   	handler.setLevel(logging.DEBUG)
+    55    122.6 MiB      0.0 MiB   	formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    96                             				data = child
+    97                             				bestFitness = fitnessChild
+    98                             			else:
+    99   4334.7 MiB      0.0 MiB   				data = mum
+   100   4334.7 MiB      0.0 MiB   				bestFitness = fitnessMum
+   101                             
+   102                             			'''
+   103                             			Memory Management
+   104                             			Only data and bestFitness is taken, rest all are deleted
+   105                             			'''
+   106   4334.7 MiB      0.0 MiB   			fitnessChild = None
+   107   4334.7 MiB      0.0 MiB   			fitnessMum = None
+   108   4334.7 MiB      0.0 MiB   			child = None
+   109   4334.7 MiB      0.0 MiB   			dad = None
+   110   4334.7 MiB      0.0 MiB   			mum = None
+   111                             
+   122                             
+   123   3494.6 MiB   -653.2 MiB   	MPI.Finalize()
+   124                             
+   125   3494.6 MiB      0.0 MiB   	del gen
+   126   3494.6 MiB      0.0 MiB   	del dataset
+   127   3494.6 MiB      0.0 MiB   	del mutationChance 
+   128   3494.6 MiB      0.0 MiB   	del param
+   129   3494.6 MiB      0.0 MiB   	del pd
+   130   3494.6 MiB      0.0 MiB   	del net
+   131   3494.6 MiB      0.0 MiB   	del ga
+   132   3494.6 MiB      0.0 MiB   	del data
+   133   3494.6 MiB      0.0 MiB   	del mum
+   134   3494.6 MiB      0.0 MiB   	del bestFitness
+
+
+   122                             
+   123   3125.2 MiB  -1093.0 MiB   	MPI.Finalize()
+   124                             
+   125   3125.2 MiB      0.0 MiB   	del gen
+   126   3125.2 MiB      0.0 MiB   	del dataset
+   127   3125.2 MiB      0.0 MiB   	del mutationChance 
+   128   3125.2 MiB      0.0 MiB   	del param
+   129   3125.2 MiB      0.0 MiB   	del pd
+   130   3125.2 MiB      0.0 MiB   	del net
+   131   3125.2 MiB      0.0 MiB   	del ga
+   132   3125.2 MiB      0.0 MiB   	del data
+   133   3125.2 MiB      0.0 MiB   	del mum
+   134   3125.2 MiB      0.0 MiB   	del bestFitness
+   106   3725.1 MiB      0.0 MiB   			fitnessChild = None
+   107   3725.1 MiB      0.0 MiB   			fitnessMum = None
+   108   3725.1 MiB      0.0 MiB   			child = None
+   109   3725.1 MiB      0.0 MiB   			dad = None
+   110   3725.1 MiB      0.0 MiB   			mum = None
+   111                             
+   112                             		else:
+   113                             			# Broadcast the best results to all the processors
+   114                             			pd.broadcast(data)
+   115                             			pd.broadcast(bestFitness)
+   116                             			print data
+   117                             			print bestFitness
+   118                             			# And halt
+   119                             			MPI.Finalize()
+   120                             
+   107   3842.0 MiB      0.0 MiB   			fitnessMum = None
+   108   3842.0 MiB      0.0 MiB   			child = None
+   109   3842.0 MiB      0.0 MiB   			dad = None
+   110   3842.0 MiB      0.0 MiB   			mum = None
+   111                             
+   112                             		else:
+   113                             			# Broadcast the best results to all the processors
+   114                             			pd.broadcast(data)
+   115                             			pd.broadcast(bestFitness)
+   116                             			print data
+   117                             			print bestFitness
+   118                             			# And halt
+   119                             			MPI.Finalize()
+   120                             
+   121                             			
+   122                             
+    56    122.6 MiB      0.0 MiB   	handler.setFormatter(formatter)
+    57    122.6 MiB      0.0 MiB   	logger.addHandler(handler)
+    58    122.6 MiB      0.0 MiB   	logger.setLevel(logging.DEBUG)
+    59                             
+    60                             	# initialize the networks
+    61                             	# one random network at every processor
+    62    122.6 MiB      0.0 MiB   	net = network.Network(param)
+    63    122.6 MiB      0.0 MiB   	data = net.initNetwork()
+    64                             
+    65    122.6 MiB      0.0 MiB   	bestFitness = -1
+   112                             		else:
+   113                             			# Broadcast the best results to all the processors
+   114                             			pd.broadcast(data)
+   115                             			pd.broadcast(bestFitness)
+   116                             			print data
+   117                             			print bestFitness
+   118                             			# And halt
+   119                             			MPI.Finalize()
+   120                             
+   121                             			
+   122                             
+   123   4334.4 MiB     -0.3 MiB   	MPI.Finalize()
+   124                             
+   125   4334.4 MiB      0.0 MiB   	del gen
+   126   4334.4 MiB      0.0 MiB   	del dataset
+   127   4334.4 MiB      0.0 MiB   	del mutationChance 
+
+
+   121                             			
+   122                             
+   123   3622.3 MiB   -102.8 MiB   	MPI.Finalize()
+   124                             
+   125   3622.3 MiB      0.0 MiB   	del gen
+   126   3622.3 MiB      0.0 MiB   	del dataset
+   127   3622.3 MiB      0.0 MiB   	del mutationChance 
+   128   3622.3 MiB      0.0 MiB   	del param
+   129   3622.3 MiB      0.0 MiB   	del pd
+   130   3622.3 MiB      0.0 MiB   	del net
+   131   3622.3 MiB      0.0 MiB   	del ga
+   123   3102.3 MiB   -739.7 MiB   	MPI.Finalize()
+   124                             
+   125   3102.3 MiB      0.0 MiB   	del gen
+   126   3102.3 MiB      0.0 MiB   	del dataset
+   127   3102.3 MiB      0.0 MiB   	del mutationChance 
+   128   3102.3 MiB      0.0 MiB   	del param
+   129   3102.3 MiB      0.0 MiB   	del pd
+   130   3102.3 MiB      0.0 MiB   	del net
+   131   3102.3 MiB      0.0 MiB   	del ga
+   132   3102.3 MiB      0.0 MiB   	del data
+   133   3102.3 MiB      0.0 MiB   	del mum
+    66    122.6 MiB      0.0 MiB   	ga = genetic.geneticAlgorithm(param)
+    67                             
+    68   4210.5 MiB   4087.9 MiB   	for g in range(gen):
+    69   4210.5 MiB      0.0 MiB   		if bestFitness < 100:
+    70                             			#Natural Selection, part I of Genetic Algorithm
+    71   4210.5 MiB      0.0 MiB   			mum=data
+    72   4210.5 MiB      0.0 MiB   			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
+   128   4334.4 MiB      0.0 MiB   	del param
+   129   4334.4 MiB      0.0 MiB   	del pd
+   130   4334.4 MiB      0.0 MiB   	del net
+   131   4334.4 MiB      0.0 MiB   	del ga
+   132   4334.4 MiB      0.0 MiB   	del data
+   133   4334.4 MiB      0.0 MiB   	del mum
+   134   4334.4 MiB      0.0 MiB   	del bestFitness
+
+
+   132   3622.3 MiB      0.0 MiB   	del data
+   133   3622.3 MiB      0.0 MiB   	del mum
+   134   3622.3 MiB      0.0 MiB   	del bestFitness
+
+
+   134   3102.3 MiB      0.0 MiB   	del bestFitness
+
+
+    73   4210.5 MiB      0.0 MiB   			dad = pd.nonBlockingExchange(data)
+    74   4210.5 MiB      0.0 MiB   			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
+    75   4210.5 MiB      0.0 MiB   			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
+    76   4210.5 MiB      0.0 MiB   			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
+    77                             			# now the parameters of the prev network are stored in dad
+    78                             			# the parameters of the current network are stored in mum
+    79                             		
+    80                             			# crossover of parents
+    81   4210.5 MiB      0.0 MiB   			child = ga.crossover(mum, dad)
+    82   4210.5 MiB      0.0 MiB   			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
+    83                             
+    84                             			#Mutation of child
+    85   4210.5 MiB      0.0 MiB   			ga.mutation(child, mutationChance)	
+    86   4210.5 MiB      0.0 MiB   			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
+    87                             
+    88                             			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
+    89                             			# Set the dictionaries to network for evaluation
+    90   4052.8 MiB   -157.7 MiB   			fitnessMum = ga.getFitness(mum, dataset)
+    91   4210.5 MiB    157.7 MiB   			fitnessChild = ga.getFitness(child, dataset)
+    92   4210.5 MiB      0.0 MiB   			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
+    93                             
+    94                             			# if evolved child is better than the parent then change the data for next generation to consider
+    95   4210.5 MiB      0.0 MiB   			if fitnessChild > fitnessMum:
+    96   3470.3 MiB   -740.2 MiB   				data = child
+    97   3470.3 MiB      0.0 MiB   				bestFitness = fitnessChild
+    98                             			else:
+    99   4210.5 MiB    740.2 MiB   				data = mum
+   100   4210.5 MiB      0.0 MiB   				bestFitness = fitnessMum
+   101                             
+   102                             			'''
+   103                             			Memory Management
+   104                             			Only data and bestFitness is taken, rest all are deleted
+   105                             			'''
+   106   4210.5 MiB      0.0 MiB   			fitnessChild = None
+   107   4210.5 MiB      0.0 MiB   			fitnessMum = None
+   108   4210.5 MiB      0.0 MiB   			child = None
+   109   4210.5 MiB      0.0 MiB   			dad = None
+   110   4210.5 MiB      0.0 MiB   			mum = None
+   111                             
+   112                             		else:
+   113                             			# Broadcast the best results to all the processors
+   114                             			pd.broadcast(data)
+   115                             			pd.broadcast(bestFitness)
+   116                             			print data
+   117                             			print bestFitness
+   118                             			# And halt
+   119                             			MPI.Finalize()
+   120                             
+   121                             			
+   122                             
+   123   3470.0 MiB   -740.5 MiB   	MPI.Finalize()
+   124                             
+   125   3470.0 MiB      0.0 MiB   	del gen
+   126   3470.0 MiB      0.0 MiB   	del dataset
+   127   3470.0 MiB      0.0 MiB   	del mutationChance 
+   128   3470.0 MiB      0.0 MiB   	del param
+   129   3470.0 MiB      0.0 MiB   	del pd
+   130   3470.0 MiB      0.0 MiB   	del net
+   131   3470.0 MiB      0.0 MiB   	del ga
+   132   3470.0 MiB      0.0 MiB   	del data
+   133   3470.0 MiB      0.0 MiB   	del mum
+   134   3470.0 MiB      0.0 MiB   	del bestFitness
+
+
+Filename: dnnt.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    26    121.8 MiB      0.0 MiB   @profile
+    27                             def DNNT():
+    28                             	"""Give parameters"""
+    29    121.8 MiB      0.0 MiB   	gen = 30
+    30    121.8 MiB      0.0 MiB   	dataset = 'cifar10'
+    31                             	# Probability of mutation being 2%
+    32    121.8 MiB      0.0 MiB   	mutationChance = 2 
+    33                             	
+    34                             	
+    35    121.8 MiB      0.0 MiB   	param = collections.OrderedDict({
+    36    121.8 MiB      0.0 MiB   		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
+    37    121.8 MiB      0.0 MiB   		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
+    38    121.8 MiB      0.0 MiB   		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
+    39    121.8 MiB      0.0 MiB   		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
+    40    121.8 MiB      0.0 MiB   		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+    41                             	})
+    42                             
+    43                             	# Initializing the MPI and testing if it's been initialized
+    44    122.6 MiB      0.8 MiB   	MPI.Init()
+    45    122.6 MiB      0.0 MiB   	print(MPI.Is_initialized())
+    46    122.6 MiB      0.0 MiB   	print(MPI.Is_finalized())
+    47                             	
+    48                             	# Initlialize the MPI class functions
+    49    122.6 MiB      0.0 MiB   	pd = parallel.parallelDistributed(MPI, param)
+    50                             	
+    51    122.6 MiB      0.0 MiB   	filename = 'output{}.log'.format(socket.gethostname())
+    52    122.6 MiB      0.0 MiB   	logger = logging.getLogger()
+    53    122.6 MiB      0.0 MiB   	handler = logging.FileHandler(filename)
+    54    122.6 MiB      0.0 MiB   	handler.setLevel(logging.DEBUG)
+    55    122.6 MiB      0.0 MiB   	formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    56    122.6 MiB      0.0 MiB   	handler.setFormatter(formatter)
+    57    122.6 MiB      0.0 MiB   	logger.addHandler(handler)
+    58    122.6 MiB      0.0 MiB   	logger.setLevel(logging.DEBUG)
+    59                             
+    60                             	# initialize the networks
+    61                             	# one random network at every processor
+    62    122.6 MiB      0.0 MiB   	net = network.Network(param)
+    63    122.6 MiB      0.0 MiB   	data = net.initNetwork()
+    64                             
+    65    122.6 MiB      0.0 MiB   	bestFitness = -1
+    66    122.6 MiB      0.0 MiB   	ga = genetic.geneticAlgorithm(param)
+    67                             
+    68   3899.0 MiB   3776.4 MiB   	for g in range(gen):
+    69   3686.0 MiB   -213.0 MiB   		if bestFitness < 100:
+    70                             			#Natural Selection, part I of Genetic Algorithm
+    71   3686.0 MiB      0.0 MiB   			mum=data
+    72   3686.0 MiB      0.0 MiB   			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
+    73   3686.0 MiB      0.0 MiB   			dad = pd.nonBlockingExchange(data)
+    74   3686.0 MiB      0.0 MiB   			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
+    75   3686.0 MiB      0.0 MiB   			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
+    76   3686.0 MiB      0.0 MiB   			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
+    77                             			# now the parameters of the prev network are stored in dad
+    78                             			# the parameters of the current network are stored in mum
+    79                             		
+    80                             			# crossover of parents
+    81   3686.0 MiB      0.0 MiB   			child = ga.crossover(mum, dad)
+    82   3686.0 MiB      0.0 MiB   			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
+    83                             
+    84                             			#Mutation of child
+    85   3686.0 MiB      0.0 MiB   			ga.mutation(child, mutationChance)	
+    86   3686.0 MiB      0.0 MiB   			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
+    87                             
+    88                             			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
+    89                             			# Set the dictionaries to network for evaluation
+    90   3739.3 MiB     53.3 MiB   			fitnessMum = ga.getFitness(mum, dataset)
+    91   3899.0 MiB    159.7 MiB   			fitnessChild = ga.getFitness(child, dataset)
+    92   3899.0 MiB      0.0 MiB   			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
+    93                             
+    94                             			# if evolved child is better than the parent then change the data for next generation to consider
+    95   3899.0 MiB      0.0 MiB   			if fitnessChild > fitnessMum:
+    96   1323.9 MiB  -2575.1 MiB   				data = child
+    97   1323.9 MiB      0.0 MiB   				bestFitness = fitnessChild
+    98                             			else:
+    99   3899.0 MiB   2575.1 MiB   				data = mum
+   100   3899.0 MiB      0.0 MiB   				bestFitness = fitnessMum
+   101                             
+   102                             			'''
+   103                             			Memory Management
+   104                             			Only data and bestFitness is taken, rest all are deleted
+   105                             			'''
+   106   3899.0 MiB      0.0 MiB   			fitnessChild = None
+   107   3899.0 MiB      0.0 MiB   			fitnessMum = None
+   108   3899.0 MiB      0.0 MiB   			child = None
+   109   3899.0 MiB      0.0 MiB   			dad = None
+   110   3899.0 MiB      0.0 MiB   			mum = None
+   111                             
+   112                             		else:
+   113                             			# Broadcast the best results to all the processors
+   114                             			pd.broadcast(data)
+   115                             			pd.broadcast(bestFitness)
+   116                             			print data
+   117                             			print bestFitness
+   118                             			# And halt
+   119                             			MPI.Finalize()
+   120                             
+   121                             			
+   122                             
+   123   3898.7 MiB     -0.3 MiB   	MPI.Finalize()
+   124                             
+   125   3898.7 MiB      0.0 MiB   	del gen
+   126   3898.7 MiB      0.0 MiB   	del dataset
+   127   3898.7 MiB      0.0 MiB   	del mutationChance 
+   128   3898.7 MiB      0.0 MiB   	del param
+   129   3898.7 MiB      0.0 MiB   	del pd
+   130   3898.7 MiB      0.0 MiB   	del net
+   131   3898.7 MiB      0.0 MiB   	del ga
+   132   3898.7 MiB      0.0 MiB   	del data
+   133   3898.7 MiB      0.0 MiB   	del mum
+   134   3898.7 MiB      0.0 MiB   	del bestFitness
+
+

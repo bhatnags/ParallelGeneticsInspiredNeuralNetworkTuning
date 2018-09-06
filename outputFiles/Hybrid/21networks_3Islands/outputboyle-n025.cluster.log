@@ -1,0 +1,20 @@
+2018-08-28 19:00:51,992 - DEBUG - imc subrank: 2, 16
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 6, 20
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 3, 17
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 5, 19
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 4, 18
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 1, 15
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 0, 14
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 5, 12
+2018-08-28 19:00:51,993 - DEBUG - imc subrank: 6, 13
+2018-08-28 19:00:51,994 - DEBUG - imc subrank: 4, 11
+2018-08-28 19:00:51,996 - DEBUG - Initialized network @rank/subrank= 16/2, {'dropout': 0.5, 'optimizer': 'rmsprop', 'activation': 'selu', 'nbLayers': 3, 'nbNeurons': 128}
+2018-08-28 19:00:51,997 - DEBUG - Initialized network @rank/subrank= 20/6, {'dropout': 0.1, 'optimizer': 'adadelta', 'activation': 'selu', 'nbLayers': 15, 'nbNeurons': 256}
+2018-08-28 19:00:51,998 - DEBUG - Initialized network @rank/subrank= 17/3, {'dropout': 0.15, 'optimizer': 'adamax', 'activation': 'selu', 'nbLayers': 9, 'nbNeurons': 256}
+2018-08-28 19:00:51,998 - DEBUG - Initialized network @rank/subrank= 19/5, {'dropout': 0.4, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 1, 'nbNeurons': 1024}
+2018-08-28 19:00:51,998 - DEBUG - Initialized network @rank/subrank= 14/0, {'dropout': 0.2, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 1, 'nbNeurons': 128}
+2018-08-28 19:00:51,999 - DEBUG - Initialized network @rank/subrank= 18/4, {'dropout': 0.3, 'optimizer': 'sgd', 'activation': 'selu', 'nbLayers': 1, 'nbNeurons': 768}
+2018-08-28 19:00:51,999 - DEBUG - Initialized network @rank/subrank= 15/1, {'dropout': 0.5, 'optimizer': 'rmsprop', 'activation': 'selu', 'nbLayers': 12, 'nbNeurons': 128}
+2018-08-28 19:00:51,999 - DEBUG - Initialized network @rank/subrank= 13/6, {'dropout': 0.2, 'optimizer': 'sgd', 'activation': 'elu', 'nbLayers': 6, 'nbNeurons': 1024}
+2018-08-28 19:00:51,999 - DEBUG - Initialized network @rank/subrank= 12/5, {'dropout': 0.15, 'optimizer': 'adagrad', 'activation': 'elu', 'nbLayers': 3, 'nbNeurons': 512}
+2018-08-28 19:00:51,999 - DEBUG - Initialized network @rank/subrank= 11/4, {'dropout': 0.25, 'optimizer': 'sgd', 'activation': 'elu', 'nbLayers': 12, 'nbNeurons': 768}
