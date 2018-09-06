@@ -28,4 +28,4 @@ The same is run using 7 processors
 ## Usage:
     mpiexec -n 7 python dnnt.py
     mpiexec -n 7 python innts.py
-This saves the output in a log file.
+This saves the output in log files. The code can be run in accordance with the availability of cluster nodes
