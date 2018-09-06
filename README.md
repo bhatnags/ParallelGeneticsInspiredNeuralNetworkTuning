@@ -54,10 +54,12 @@ The reduction of time at generation level is due to division of tasks in paralle
 Furthermore, an analysis on efficiency and speedups show the below:
 
 
-| Network  | Sequential Time | Parallel Time  | Speedup | Efficiency  |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| 7  | 139  | 3  | 46.3  | 6.62 |
-| 70  | 262  | 29  | 9  | 0.13  |
+| Network | Sequential Time | Parallel Time | Speedup | Efficiency | Best Accuracy - Serial | Best Accuracy - Parallel | Best Accuracy Generation - Serial | Best Accuracy Generation - Parallel | Time to reach best accuracy - serial  | Time to reach best accuracy - parallel |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| - | (time in minutes per generation) | (time in minutes per generation) | (Sequential time/Parallel time) | (Speedup/Processor count) | (in %age) | (in %age) | (generation number) | (generation number) | (time in h:mm)  | (time in h:mm) |
+| 7  | 139  | 3  | 46.3  | 6.62 | 48.4 | 47.37 | 1 | 0 | 1:08 | 0:04 |
+| 70  | 262  | 29  | 9  | 0.13  | 47.4 | 45.47 | 1 | 5 | 4:43 | 8:18 |
 
 
+The accuracy that serial code taken hours to achieve can be gained in minutes time running parallel code.
 
