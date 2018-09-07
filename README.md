@@ -5,14 +5,13 @@
 
 The first analysis for optimizing neural network is shown [here](https://github.com/bhatnags/GeneticsInspiredNeuralNetworkTuning
 ). Keeping the search space and coding methodology same, the tuning of neural networks using genetic algorithm has been parallelized using Mpi4py. For that two models are considered: 
-* multiple deme fine grained genetic algorithm model
-* hybrid multiple deme fine grained genetic algorithm (multiple deme model built on top of multiple demem model) - Island model
-
+* Multiple-population GA
+* Hierarchical GA combining a multi-deme GA (at the upper level) and another multi-deme GA (at the lower level) - Island Model
 
 Thanks to the research paper [here](https://www.researchgate.net/publication/2362670_A_Survey_of_Parallel_Genetic_Algorithms)
 
-# multiple deme fine grained genetic algorithm model
-The same is run using multiple processors. Every processor initiates one network. For crossover, network of the provious rank is taken. The bred child is mutated considering 2% mutation chance. In this analysis, multiple codes are run using 3, 5, 7, 14, 21, 35 processors.
+# multiple-population GA
+The same is run using multiple processors. Every processor initiates one network. For crossover, network of the previous rank is taken. The bred child is mutated considering 2% mutation chance. In this analysis, multiple codes are run using 3, 5, 7, 14, 21, 35 processors.
 
 
 # Island Model
@@ -63,3 +62,4 @@ Furthermore, an analysis on efficiency and speedups show the below:
 
 The accuracy that serial code taken hours to achieve can be gained in minutes time running parallel code.
 
+A comparison of fitness evolution with generations is drawn for various ranks as shown below:
