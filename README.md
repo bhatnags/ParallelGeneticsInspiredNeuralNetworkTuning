@@ -47,7 +47,7 @@ Due to lower mutation chance, the parameters stay the same over generations, thu
 
 ![rank_gen_timeTaken_Serial](./Images/Multiple-deme/rank_gen_timeTaken_Serial.PNG)
 
-The reduction of time at generation level is due to division of tasks in parallel reducing the amount of time taken as per "Law of division of labor", which can be seen below.
+The reduction of time at generation level is due to division of tasks in parallel reducing the amount of time taken as per "Law of division of labor", which can be seen below:
 ![timeS_vs_P](./Images/Multiple-deme/timeS_vs_P.PNG)
 
 Furthermore, an analysis on efficiency and speedups show the below:
@@ -63,3 +63,14 @@ Furthermore, an analysis on efficiency and speedups show the below:
 The accuracy that serial code taken hours to achieve can be gained in minutes time running parallel code.
 
 A comparison of fitness evolution with generations is drawn for various ranks as shown below:
+![fitnessEvolRanks](./Images/Multiple-deme/fitnessEvolRanks.PNG)
+
+This shows that increasing the number of ranks/networks has no impact on fitness, however, increasing the ranks for the analysis does help in getting the fitness sooner.
+
+| Processors | Number of Islands | Population per Island | Best Fitness | Time (in minutes) |
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| 7 | 3 | 3 | 41.48 | 17 |
+| 14 | 5 | 3 | 10 | 11min |
+| 21 | 3 | 7 | 10 | 3min |
+
+From the above table it can be inferred that implementation of the island model did not result in better fitness
