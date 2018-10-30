@@ -1,4 +1,8 @@
-from memory_profiler import profile
+import network
+import genetic
+import parallel
+
+import socket
 
 import logging
 
@@ -6,48 +10,74 @@ import collections
 from collections import OrderedDict
 
 import mpi4py
-mpi4py.rc(initialize=False, finalize=False)
 from mpi4py import MPI
 from mpi4py.MPI import ANY_SOURCE
+mpi4py.rc(initialize=False, finalize=False)
 
-import socket
 
-import network
-import genetic
-import parallel
 
 # import unittest
 # from randomdict import RandomDict
 # import warnings
 # warnings.filterwarnings("always")
+# from memory_profiler import profile
 
-		
 
-@profile
-def DNNT():
-	"""Give parameters"""
-	gen = 30
+'''
+Initialize the classes
+'''
+def initClasses(param, MPI):
+	# The Network class
+	net = network.Network(param)
+	# The Genetic Algorithm class
+	ga = genetic.geneticAlgorithm(param)
+	# The class with comparison functions
+	com = network.compare()
+	# The MPI class
+	pd = parallel.parallelDistributed(MPI, param)
+	return net, ga, com, pd
+
+
+
+'''
+Get parameters for optimizing Neural Network
+'''
+def getParameters():
+	# Number of generations
+	generation = 2
+	# Dataset for comparison
 	dataset = 'cifar10'
-	# Probability of mutation being 2%
-	mutationChance = 2 
-	
-	
+	# Rate of mutation
+	mutationChance = 30
+	# Hyper-parameters to be optimized
 	param = collections.OrderedDict({
-		'nbNeurons': {1:32, 2:64, 3:128, 4:256, 5:512, 6:768, 7:1024},
-		'nbLayers': {1:1, 2:3, 3:6, 4:9, 5:12, 6:15, 7:20},
-		'activation': {1:'sigmoid', 2:'elu', 3:'selu', 4:'relu', 5:'tanh', 6:'hard_sigmoid', 7:'linear'}, 
-		'optimizer': {1:'sgd', 2:'rmsprop', 3:'adagrad', 4:'adadelta', 5:'adam', 6:'adamax', 7:'nadam'},
-		'dropout': {1:0.1, 2:0.15, 3:0.2, 4:0.25, 5:0.3, 6:0.4, 7:0.5}
+		'nbNeurons': {1: 4, 2: 8, 3: 16, 4: 32, 5: 64, 6: 128},
+		'nbLayers': {1: 1, 2: 3, 3: 6, 4: 9, 5: 12, 6: 15},
+		'activation': {1: 'sigmoid', 2: 'elu', 3: 'selu', 4: 'relu', 5: 'tanh', 6: 'hard_sigmoid'},
+		'optimizer': {1: 'sgd', 2: 'nadam', 3: 'adagrad', 4: 'adadelta', 5: 'adam', 6: 'adamax'},
+		'dropout': {1: 0.1, 2: 0.2, 3: 0.25, 4: 0.3, 5: 0.4, 6: 0.5}
 	})
+	return generation, dataset, mutationChance, param
+
+
+
+'''
+Distributed Neural Network Tuning
+'''
+#@profile
+def DNNT():
 
 	# Initializing the MPI and testing if it's been initialized
 	MPI.Init()
 	print(MPI.Is_initialized())
 	print(MPI.Is_finalized())
-	
-	# Initlialize the MPI class functions
-	pd = parallel.parallelDistributed(MPI, param)
-	
+
+
+	# Get Parameters
+	generation, dataset, mutationChance, param = getParameters()
+
+
+	# Get the logger
 	filename = 'output{}.log'.format(socket.gethostname())
 	logger = logging.getLogger()
 	handler = logging.FileHandler(filename)
@@ -57,58 +87,64 @@ def DNNT():
 	logger.addHandler(handler)
 	logger.setLevel(logging.DEBUG)
 
+
+	# Initialize the classes
+	net, ga, com, pd = initClasses(param, MPI)
+
+
 	# initialize the networks
 	# one random network at every processor
-	net = network.Network(param)
 	data = net.initNetwork()
+	# Initialize the fitness
+	fitnessParent = -1; 	# The fitness of the parent
+	fitnessChild = -1;		# The fitness of the child
+	networkFitness = -1;	# The fitness of the network
+	genBestFitness = -1;	# Fitness of the generation
 
-	bestFitness = -1
-	ga = genetic.geneticAlgorithm(param)
 
-	for g in range(gen):
-		if bestFitness < 100:
-			#Natural Selection, part I of Genetic Algorithm
-			mum=data
-			logger.debug('Initialized network = %s, %s', socket.gethostname(), mum)
-			dad = pd.nonBlockingExchange(data)
-			logger.debug('for data after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), data)
-			logger.debug('for dad after exchange rank = %d, processid = %s, %s', pd.rank, socket.gethostname(), dad)
-			MPI.COMM_WORLD.Barrier()  #check if it's useful /Todo
-			# now the parameters of the prev network are stored in dad
-			# the parameters of the current network are stored in mum
+
+	# Start running GA (Genetic Algorithm) generation
+	for g in range(generation):
+		if genBestFitness < 100:
+
+			# GET PARENT FITNESS/ACCURACY
+			# Every processor trains and evaluate the accuracy/fitness of the parent network
+			fitnessParent = ga.getFitness(data, dataset)
+
+
+			# BREED THE CHILD
+			# This to be done using MPI ISend
+			# Get the parent using Non Blocking exchange
+			child = ga.breeding(data, mutationChance, pd.nonBlockingExchange(data))
+			MPI.COMM_WORLD.Barrier()
 		
-			# crossover of parents
-			child = ga.crossover(mum, dad)
-			logger.debug('Crossover Done, generation = %d, rank = %d, processid = %s, child = %s', g, pd.rank, socket.gethostname(), child)
 
-			#Mutation of child
-			ga.mutation(child, mutationChance)	
-			logger.debug('Mutation Done, generation = %d, rank = %d, processid =%s, network = %s', g, pd.rank, socket.gethostname(), child)
-
-			# Every processor trains and evaluate the accuracy/fitness of the networks: parent and child
-			# Set the dictionaries to network for evaluation
-			fitnessMum = ga.getFitness(mum, dataset)
+			# GET CHILD'S FITNESS/ACCURACY
+			# Every processor trains and evaluate the accuracy/fitness of the child network
 			fitnessChild = ga.getFitness(child, dataset)
-			logger.debug('Training Done, generation = %d, rank = %d, processid = %s, parentFitness = %.4f, childFitness = %.4f', g, pd.rank, socket.gethostname(), fitnessMum, fitnessChild)
-
-			# if evolved child is better than the parent then change the data for next generation to consider
-			if fitnessChild > fitnessMum:
-				data = child
-				bestFitness = fitnessChild
-			else:
-				data = mum
-				bestFitness = fitnessMum
 
 			'''
-			Memory Management
-			Only data and bestFitness is taken, rest all are deleted
+			If the network fitness has improved over previous generation, 
+				then pass on the features/hyperparameters
+			Pass on the better of the two (parent or child) from this generation to the next generation
 			'''
-			fitnessChild = None
-			fitnessMum = None
-			child = None
-			dad = None
-			mum = None
+			networkFitness, data = com.networkData(networkFitness, fitnessParent, fitnessChild, data, child)
 
+			logger.debug('generation=%d, Rank=%d, processid=%s, parent=%s, child=%s, '
+						 'parentFitness=%0.4f, childFitness=%0.4f, networkFitness=%0.4f',
+						 g, pd.rank, socket.gethostname(), data, child,
+						 fitnessParent, fitnessChild, networkFitness)
+
+		'''
+		Compare the fitness of the best networks of all the families
+		Get the best fitness the generation 
+		Kill the poorest performing of the population 
+		Randomly initialize the poorest fitness population to keep the population constant
+		'''
+		genBestFitness, data = network.genFitness(networkFitness, data, param, MPI)
+		print(genBestFitness, data)
+
+		'''
 		else:
 			# Broadcast the best results to all the processors
 			pd.broadcast(data)
@@ -117,21 +153,11 @@ def DNNT():
 			print bestFitness
 			# And halt
 			MPI.Finalize()
+		'''
 
-			
 
 	MPI.Finalize()
 
-	del gen
-	del dataset
-	del mutationChance 
-	del param
-	del pd
-	del net
-	del ga
-	del data
-	del mum
-	del bestFitness
 
 
 if __name__ == '__main__':
